@@ -1,0 +1,14 @@
+/.DS_Store export-ignore
+/.gitignore export-ignore
+/.gitattributes export-ignore
+/README.md export-ignore
+/node_modules export-ignore
+/src export-ignore
+/package.json export-ignore
+/package-lock.json export-ignore
+/postcss.config.js export-ignore
+/tailwind.config.js export-ignore
+/tsconfig.json export-ignore
+/tsconfig.node.json export-ignore
+/vite.config.ts export-ignore
+/index.js export-ignore

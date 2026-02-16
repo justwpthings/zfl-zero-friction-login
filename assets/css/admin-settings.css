@@ -1,0 +1,95 @@
+.zfl-logo-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#zfl_logo_preview {
+    margin-bottom: 10px;
+}
+
+.zfl-logo-actions {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+#zfl_logo_preview img {
+    border: 1px solid #ddd;
+    padding: 5px;
+    background: #fff;
+}
+
+#zfl_remove_logo_button {
+    margin-left: 0;
+}
+
+.nav-tab-wrapper {
+    margin-bottom: 20px;
+}
+
+#smtp_settings {
+    transition: all 0.3s ease;
+}
+
+.form-table th {
+    width: 200px;
+}
+
+.form-table td fieldset label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-table td .description {
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.wp-picker-container {
+    display: inline-block;
+}
+
+.zfl-section-header th {
+    padding-top: 24px;
+}
+
+.zfl-section-header h3 {
+    margin: 0;
+}
+
+.zfl-about-wrapper {
+    width: 100%;
+    max-width: none;
+}
+
+.zfl-about-grid {
+    column-count: 3;
+    column-gap: 20px;
+}
+
+.zfl-about-grid > .card {
+    display: inline-block;
+    width: 100%;
+    margin: 0 0 20px !important;
+    break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+}
+
+.zfl-about-grid > .card > div {
+    overflow-x: auto;
+}
+
+@media (max-width: 1200px) {
+    .zfl-about-grid {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 900px) {
+    .zfl-about-grid {
+        column-count: 1;
+    }
+}
